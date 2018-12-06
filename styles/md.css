@@ -1,0 +1,118 @@
+.md-html {
+  padding: 30px 0;
+  font-size: 0.875em;
+  color: #263238;
+}
+
+.md-html b,
+.md-html strong {
+  font-weight: 400;
+}
+
+.md-html h1,
+.md-html h2,
+.md-html h3,
+.md-html h4,
+.md-html h5,
+.md-html h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  /* color: #582c5f; */
+  color: #0033a0;
+}
+
+.md-html h1 {
+  font-size: 2.25em;
+}
+
+.md-html h2 {
+  font-size: 2em;
+}
+
+.md-html h3 {
+  font-size: 1.625em;
+}
+
+.md-html h4 {
+  font-size: 1.25em;
+}
+
+.md-html h5 {
+  font-size: 1em;
+}
+
+.md-html h6 {
+  font-size: 0.85em;
+}
+
+.md-html img {
+  border: 0;
+  max-width: 100%;
+  box-sizing: content-box;
+}
+
+.md-html hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.md-html p,
+.md-html ul,
+.md-html ol {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.md-html table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.md-html td,
+.md-html th {
+  padding: 0;
+}
+
+.md-html table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.md-html table th {
+  padding: 10px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 0.929em;
+  color: #26323880;
+  text-transform: uppercase;
+}
+
+.md-html table td {
+  padding: 10px;
+  font-weight: 300;
+}
+
+.md-html table tr {
+  border-bottom: 1px solid #2632384d;
+}
+
+/* .md-html table tr:nth-child(2n) {
+  background-color: #f9fafc;
+} */
+
+.md-html pre {
+  padding: 10px;
+  overflow: auto;
+  background: #263238;
+  color: #fff;
+}
+
+.md-html code,
+.md-html kbd,
+.md-html pre {
+  font-family: monospace, monospace;
+}

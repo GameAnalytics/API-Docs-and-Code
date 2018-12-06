@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/normalize.min.css" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <title>DataTiger APIs - Management API</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div>
+        <a href="/">
+          <img src="images/dt-docs-logo-w-wordmark.svg" width="257" height="57" alt="Data Tiger" />
+        </a>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a class="nav-menu-link" href="index.html">Introduction</a>
+        </li>
+        <li class="nav-menu-item">
+          <a class="nav-menu-link" href="events.html">Events API</a>
+        </li>
+        <li class="nav-menu-item">
+          <a class="nav-menu-link active" href="management.html">Management API</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <redoc />
+    <script src="https://cdn.jsdelivr.net/npm/redoc/bundles/redoc.standalone.js"></script>
+    <script>
+      Redoc.init('https://raw.githubusercontent.com/DataTigerGitHub/API-Docs-and-Code/master/spec/swagger.yaml', {
+        scrollYOffset: '.header'
+      });
+    </script>
+  </main>
+</body>
+
+</html>
